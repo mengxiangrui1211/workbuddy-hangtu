@@ -6,14 +6,14 @@ export default defineConfig({
   description: 'WorkBuddy 从零到精通原创实战教程：安装上手、真实案例、进阶 Skill 与多 Agent、岗位与行业落地。',
   lang: 'zh-CN',
   head: [
-    ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }]
+    ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }]
   ],
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
   appearance: 'dark',
   themeConfig: {
-    logo: '/logo.svg',
+    logo: { src: '/logo.png', alt: 'WorkBuddy 航海图' },
     nav: [
       { text: '航海图首页', link: '/' },
       { text: '航线图 · 难度地图', link: '/difficulty-map' },

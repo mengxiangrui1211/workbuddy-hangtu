@@ -12,7 +12,7 @@ hero:
       text: 阅读指南
       link: /reading-guide
   image:
-    src: /logo.svg
+    src: /logo.png
     alt: WorkBuddy 航海图
 features:
   - title: 真实任务

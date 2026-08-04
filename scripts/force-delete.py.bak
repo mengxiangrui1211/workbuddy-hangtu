@@ -1,0 +1,13 @@
+import os
+
+base = r'C:\Users\笑太一\WorkBuddy\2026-08-04-00-39-32\wb-hangtu'
+targets = [
+    os.path.join(base, '.git', 'index.lock'),
+    os.path.join(base, '.vitepress', 'theme', 'components', 'SeaBg.vue'),
+]
+for fp in targets:
+    if os.path.exists(fp):
+        os.remove(fp)
+        print('REMOVED', fp)
+    else:
+        print('OK-ABSENT', fp)
