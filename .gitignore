@@ -8,3 +8,7 @@ node_modules
 # 临时产物 / 退役备份（勿提交）
 public/_verify_*.png
 public/*.bak
+
+# 部署验证用的临时叠底图（脚本/人工生成，勿提交）
+public/_deployed_on_dark.png
+public/_deployed_check.png
