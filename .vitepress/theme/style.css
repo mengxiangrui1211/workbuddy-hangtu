@@ -92,6 +92,22 @@
   padding: 4px 12px;
 }
 
+.hb-deploy-badge {
+  margin-top: 18px;
+  display: inline-block;
+  font-size: 13px;
+  color: var(--hb-accent);
+  background: rgba(20, 184, 166, 0.10);
+  border: 1px solid rgba(20, 184, 166, 0.28);
+  border-radius: 999px;
+  padding: 6px 14px;
+  font-weight: 500;
+}
+.dark .hb-deploy-badge {
+  background: rgba(45, 212, 191, 0.12);
+  border-color: rgba(45, 212, 191, 0.36);
+}
+
 .hb-section {
   margin: 56px 0 8px;
 }

@@ -42,6 +42,10 @@ features:
   <span class="hb-tag">多 Agent 系统</span>
 </div>
 
+<div class="hb-deploy-badge">
+  ✅ Git 自动化部署已接入 · 改完 push 即自动更新（2026-08-04 端到端验证）
+</div>
+
 ## 四段航程，按你的目标进入
 
 从个人上手到组织落地，循序渐进，构建你的 WorkBuddy 工作系统。
