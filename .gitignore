@@ -4,3 +4,7 @@ node_modules
 .DS_Store
 *.local
 .env
+
+# 临时产物 / 退役备份（勿提交）
+public/_verify_*.png
+public/*.bak
