@@ -5,6 +5,9 @@ export default defineConfig({
   titleTemplate: ':title · 从 0 到一支 AI 舰队',
   description: 'WorkBuddy 从零到精通原创实战教程：安装上手、真实案例、进阶 Skill 与多 Agent、岗位与行业落地。',
   lang: 'zh-CN',
+  head: [
+    ['link', { rel: 'icon', href: '/logo.svg', type: 'image/svg+xml' }]
+  ],
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
