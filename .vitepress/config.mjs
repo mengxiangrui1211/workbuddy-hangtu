@@ -22,6 +22,8 @@ export default defineConfig({
       { text: '第三篇 · 进阶篇', link: '/bluebook/part3-advanced/' },
       { text: '第四篇 · 岗位与行业', link: '/bluebook/part4-roles/' },
       { text: '阅读指南', link: '/reading-guide' },
+      { text: '案例墙', link: '/showcase' },
+      { text: '参与共创', link: '/contribute' },
       { text: '官方文档', link: 'https://www.workbuddy.cn/docs/workbuddy/Overview', target: '_blank' }
     ],
     sidebar: [
@@ -29,7 +31,9 @@ export default defineConfig({
         text: '开始之前',
         items: [
           { text: '航线图 · 难度地图', link: '/difficulty-map' },
-          { text: '如何阅读这本航海图', link: '/reading-guide' }
+          { text: '如何阅读这本航海图', link: '/reading-guide' },
+          { text: '案例墙 · 真实案例收录', link: '/showcase' },
+          { text: '参与共创 · 投稿指南', link: '/contribute' }
         ]
       },
       {

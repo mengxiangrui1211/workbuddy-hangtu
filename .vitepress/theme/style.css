@@ -427,3 +427,25 @@
   .VPHero .image-container { width: 360px; height: 360px; }
   .VPHero .image-src { max-width: 360px; max-height: 360px; }
 }
+
+/* ===== 参与共创页 / 案例墙页（全局类，组件内 scoped 不覆盖的兜底）===== */
+/* 案例墙网格兜底（组件自带 scoped 样式为主，这里保证无 JS 时也有基础排版） */
+.hb-casewall { gap: 18px; }
+/* 共创页：投稿渠道表在暗色下边框更柔和 */
+.hb-contrib-table { width: 100%; border-collapse: collapse; margin: 18px 0; }
+.hb-contrib-table th,
+.hb-contrib-table td {
+  border: 1px solid var(--vp-c-divider);
+  padding: 10px 14px;
+  text-align: left;
+  font-size: 14px;
+}
+.hb-contrib-table th { background: var(--vp-c-brand-soft); color: var(--vp-c-brand-1); }
+.hb-contrib-table tr:nth-child(even) td { background: var(--vp-c-bg-soft); }
+
+/* 案例墙页顶部引导标题间距 */
+#案例墙--真实截图与案例收录 + p { margin-top: 4px; }
+
+/* 投稿模板代码块在共创/案例墙页更醒目 */
+.showcase-md .vp-doc h1,
+.contribute-md .vp-doc h1 { scroll-margin-top: 24px; }
