@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 15
+tags: [方法论]
+scene: 理解 TASK→CASE→WORKFLOW→TEAM
+next: /bluebook/part2-cases/ch11-office/
+nextTitle: 办公三件套：Word、Excel、PPT
+---
+
+
 # 课外补给：一章看懂 AI 工作系统
 
 前面 10 章教你把 WorkBuddy 用起来。这一章给你一张「全局地图」，后面所有案例和进阶，都挂在它上面。

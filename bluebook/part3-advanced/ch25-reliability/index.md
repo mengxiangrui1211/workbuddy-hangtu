@@ -1,3 +1,13 @@
+---
+difficulty: 3
+time: 25
+tags: [可靠性, 自动化]
+scene: 让自动化稳定可靠
+next: /bluebook/part4-roles/ch26-roles/
+nextTitle: 岗位路线图：把 WorkBuddy 用深
+---
+
+
 # 第 25 章 自动化工作流的可靠性
 
 自动化跑一次成功不难，**天天跑都不翻车**才难。这一章给你的自动化「上保险」。

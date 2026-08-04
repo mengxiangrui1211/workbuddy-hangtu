@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 8
+tags: [产品认知]
+scene: 用一句话建立 WorkBuddy 的心智模型
+next: /bluebook/part1-getting-started/ch02-install/
+nextTitle: 下载、安装、登录与更新
+---
+
+
 # 第 1 章 初识 WorkBuddy
 
 WorkBuddy 是腾讯出品的**全场景 AI 办公工作台**。一句话描述它的不同：普通 AI 聊天工具「给你建议」，WorkBuddy「替你把事办了」。

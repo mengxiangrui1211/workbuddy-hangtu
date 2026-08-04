@@ -1,3 +1,13 @@
+---
+difficulty: 3
+time: 25
+tags: [投资, 分析]
+scene: 例行化投资分析
+next: /bluebook/part2-cases/ch19-video/
+nextTitle: 一句话召唤 AI 视频团队
+---
+
+
 # 第 18 章 把投资分析变成你的日常
 
 **场景**：你关心几只标的，但每天手动翻行情、新闻太累，容易凭感觉决策。

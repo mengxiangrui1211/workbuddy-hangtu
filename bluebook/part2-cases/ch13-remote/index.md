@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 15
+tags: [远程控制]
+scene: 远程操控你的电脑
+next: /bluebook/part2-cases/ch14-life/
+nextTitle: 生活助手：减少琐碎
+---
+
+
 # 第 13 章 远程控制你的电脑，不用发愁不在电脑前
 
 **场景**：人在外面，需要家里/公司电脑上的某个文件，或要它跑个长任务。

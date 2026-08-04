@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 18
+tags: [连接器]
+scene: 接入第三方服务与数据
+next: /bluebook/part1-getting-started/ch08-im/
+nextTitle: 接入小程序与 IM 助理
+---
+
+
 # 第 7 章 WorkBuddy 使用连接器
 
 连上了工具，WorkBuddy 才真正「长出手脚」。**连接器（Connector）** 就是它和你常用软件之间的桥。

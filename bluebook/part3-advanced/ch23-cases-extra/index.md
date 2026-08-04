@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 20
+tags: [案例]
+scene: 进阶实操案例
+next: /bluebook/part3-advanced/ch24-multi-agent/
+nextTitle: 如何进行多 Agent 系统设计
+---
+
+
 # 第 23 章 实操案例集补充
 
 几个高频、可直接抄的 CASE 模板，拿去就能用，跑顺了记得沉淀成自己的。

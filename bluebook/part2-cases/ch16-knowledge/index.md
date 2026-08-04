@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 15
+tags: [知识管理]
+scene: 建可检索的知识库
+next: /bluebook/part2-cases/ch17-meeting/
+nextTitle: 会议结束不是终点
+---
+
+
 # 第 16 章 收藏不是知识管理，能再次用起来才是
 
 **场景**：收藏夹 200 篇「以后看」，从未再看。真正需要时，还是现搜。

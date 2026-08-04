@@ -1,3 +1,13 @@
+---
+difficulty: 3
+time: 30
+tags: [Skill 开发]
+scene: 把知识蒸馏成 Skill
+next: /bluebook/part3-advanced/ch23-cases-extra/
+nextTitle: 实操案例集补充
+---
+
+
 # 第 22 章 打造 Skill：把知识蒸馏为可执行能力
 
 你读过一篇好文、看过一门好课、跑顺一个流程——这些「隐性知识」最该被固化成 **Skill**，下次一句话调用。

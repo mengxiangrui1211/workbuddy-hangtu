@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 20
+tags: [视频]
+scene: 用 AI 生成视频
+next: /bluebook/part2-cases/ch20-media/
+nextTitle: 自媒体增长闭环
+---
+
+
 # 第 19 章 一句话召唤 AI 视频团队
 
 **场景**：你想做一条短视频，但脚本、配音、画面、剪辑样样要人，一个人搞不动。

@@ -1,3 +1,13 @@
+---
+difficulty: 3
+time: 20
+tags: [GEO, 搜索]
+scene: 用 AI 做 GEO 优化
+next: /bluebook/part3-advanced/ch22-skill-building/
+nextTitle: 打造 Skill：把知识蒸馏为可执行能力
+---
+
+
 # 第 21 章 WorkBuddy 也能做 GEO 专家
 
 **场景**：你做了内容、投了广告，但在「AI 搜索」（如各类对话式助手）里搜不到你。这时代需要 **GEO（Generative Engine Optimization，生成式引擎优化）**。

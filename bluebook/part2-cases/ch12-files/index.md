@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 12
+tags: [文件整理]
+scene: 批量整理与重命名
+next: /bluebook/part2-cases/ch13-remote/
+nextTitle: 远程控制你的电脑
+---
+
+
 # 第 12 章 从整理桌面文件这些小事做起
 
 **场景**：桌面堆了 300 个文件，命名乱、类型杂，找个东西要翻半天。

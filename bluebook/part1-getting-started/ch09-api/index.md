@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 20
+tags: [API, 外部集成]
+scene: 接入外部 API 与数据
+next: /bluebook/part1-getting-started/ch10-automation/
+nextTitle: 自动化任务
+---
+
+
 # 第 9 章 如何接入外部 API
 
 当现成连接器不够用时，你可以让 WorkBuddy 直接对接**任意外部 API**——比如你们公司的内部系统、第三方数据接口。

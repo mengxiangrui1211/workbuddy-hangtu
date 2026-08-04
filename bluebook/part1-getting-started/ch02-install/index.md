@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 10
+tags: [安装, 登录]
+scene: 把它装到你的电脑并登录
+next: /bluebook/part1-getting-started/ch03-interface/
+nextTitle: 主界面、任务与工作区
+---
+
+
 # 第 2 章 下载、安装、登录与更新
 
 先把船造好，才能出海。

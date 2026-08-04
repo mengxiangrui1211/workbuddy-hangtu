@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 12
+tags: [生活]
+scene: 用 AI 打理生活琐事
+next: /bluebook/part2-cases/ch15-news/
+nextTitle: 资讯整合：把信息流变成每日通知
+---
+
+
 # 第 14 章 生活助手的价值，是减少琐碎
 
 **场景**：旅游攻略、健身计划、送礼清单、聚餐点菜——这些小事单独做不值当，堆一起很耗神。

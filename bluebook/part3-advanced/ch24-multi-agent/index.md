@@ -1,3 +1,13 @@
+---
+difficulty: 3
+time: 30
+tags: [多 Agent]
+scene: 设计多 Agent 系统
+next: /bluebook/part3-advanced/ch25-reliability/
+nextTitle: 自动化工作流的可靠性
+---
+
+
 # 第 24 章 如何进行多 Agent 系统设计
 
 单一 Agent 能干活；**多 Agent 系统**能搞定「一个人干不完」的复杂目标——把大任务拆给多个各有所长的 Agent 协作。

@@ -220,3 +220,199 @@
 #nprogress .bar {
   background: var(--vp-c-brand-1) !important;
 }
+
+/* ===== 章节元数据条（doc-top 注入） ===== */
+.hb-chapter-meta {
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 12px 16px;
+  margin: 4px 0 22px;
+  font-size: 13px;
+}
+.hb-meta-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 18px;
+}
+.hb-meta-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--vp-c-text-1);
+}
+.hb-meta-k {
+  color: var(--vp-c-text-2);
+  font-weight: 600;
+}
+.hb-meta-item b {
+  color: var(--vp-c-brand-1);
+}
+.hb-stars {
+  color: var(--vp-c-brand-1);
+  letter-spacing: 1px;
+}
+.hb-meta-sub {
+  color: var(--vp-c-text-2);
+  font-size: 12px;
+}
+.hb-meta-scene {
+  flex: 1 1 200px;
+  color: var(--vp-c-text-1);
+}
+.hb-meta-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 10px;
+}
+.hb-mtag {
+  font-size: 12px;
+  border: 1px solid var(--vp-c-brand-soft);
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border-radius: 999px;
+  padding: 2px 10px;
+}
+
+/* ===== 章节复盘 CTA（doc-bottom 注入） ===== */
+.hb-review {
+  margin: 44px 0 8px;
+  padding: 20px 22px;
+  border: 1px solid rgba(20, 184, 166, 0.30);
+  background: rgba(20, 184, 166, 0.06);
+  border-radius: 14px;
+}
+.dark .hb-review {
+  border-color: rgba(45, 212, 191, 0.34);
+  background: rgba(45, 212, 191, 0.08);
+}
+.hb-review-head {
+  font-weight: 700;
+  color: var(--hb-accent);
+  margin-bottom: 10px;
+}
+.hb-review-list {
+  margin: 0 0 14px;
+  padding-left: 20px;
+  color: var(--vp-c-text-1);
+  font-size: 14px;
+  line-height: 1.9;
+}
+.hb-review-foot {
+  display: flex;
+  align-items: center;
+}
+.hb-review-next {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 600;
+  color: #fff;
+  background: var(--vp-c-brand-1);
+  border-radius: 10px;
+  padding: 9px 16px;
+  transition: background 0.15s ease, transform 0.15s ease;
+}
+.hb-review-next:hover {
+  background: var(--vp-c-brand-2);
+  transform: translateY(-1px);
+}
+.hb-review-done {
+  font-weight: 600;
+  color: var(--hb-accent);
+}
+
+/* ===== 难度地图 RouteMap ===== */
+.hb-routemap {
+  margin: 18px 0 8px;
+}
+.hb-rm-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 20px;
+  font-size: 12.5px;
+  color: var(--vp-c-text-2);
+  padding: 12px 16px;
+  border: 1px dashed var(--vp-c-divider);
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+.hb-rm-legend-item {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.hb-rm-legend-time {
+  margin-left: auto;
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+.hb-rm-part {
+  margin-top: 26px;
+}
+.hb-rm-part-head {
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--vp-c-text-1);
+  border-left: 3px solid var(--vp-c-brand-1);
+  padding-left: 10px;
+  margin-bottom: 12px;
+}
+.hb-rm-rows {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.hb-rm-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  text-decoration: none;
+  color: inherit;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  border-radius: 12px;
+  padding: 11px 14px;
+  transition: border-color 0.15s ease, transform 0.12s ease, box-shadow 0.15s ease;
+}
+.hb-rm-row:hover {
+  border-color: var(--vp-c-brand-1);
+  transform: translateX(2px);
+  box-shadow: 0 6px 18px rgba(14, 165, 233, 0.10);
+}
+.hb-rm-num {
+  font-family: var(--vp-font-family-mono);
+  font-weight: 700;
+  color: var(--vp-c-brand-1);
+  min-width: 26px;
+}
+.hb-rm-title {
+  flex: 1 1 auto;
+  font-size: 14px;
+  color: var(--vp-c-text-1);
+}
+.hb-rm-time {
+  font-size: 12.5px;
+  color: var(--vp-c-text-2);
+  min-width: 42px;
+  text-align: right;
+}
+.hb-rm-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  min-width: 0;
+}
+.hb-rm-tag {
+  font-size: 11.5px;
+  border: 1px solid var(--vp-c-brand-soft);
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border-radius: 999px;
+  padding: 1px 8px;
+}
+@media (max-width: 640px) {
+  .hb-rm-tags { display: none; }
+  .hb-meta-scene { flex-basis: 100%; }
+}

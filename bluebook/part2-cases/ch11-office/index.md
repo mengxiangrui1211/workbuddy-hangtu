@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 15
+tags: [办公, PPT, Excel]
+scene: 一句话出文档 / 表格 / PPT
+next: /bluebook/part2-cases/ch12-files/
+nextTitle: 从整理桌面文件这些小事做起
+---
+
+
 # 第 11 章 办公三件套：Word、Excel、PPT
 
 **场景**：周五下午，老板要一份 Q3 复盘 PPT、一张数据表、一段总结稿。你只有一堆散乱要点。

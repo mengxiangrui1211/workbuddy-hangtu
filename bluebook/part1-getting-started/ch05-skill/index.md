@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 15
+tags: [Skill]
+scene: 加载并调用一个 Skill
+next: /bluebook/part1-getting-started/ch06-experts/
+nextTitle: 专家和专家团
+---
+
+
 # 第 5 章 加载一个真正用得上的 Skill
 
 有些任务很专业（做公众号封面、生成 PPT、查股票），靠通用对话容易跑偏。**Skill（技能）** 就是给 WorkBuddy 装的「专业外挂」——封装了某领域的最佳实践和工具调用。

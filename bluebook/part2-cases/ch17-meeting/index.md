@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 15
+tags: [会议]
+scene: 会后自动出纪要 / 待办
+next: /bluebook/part2-cases/ch18-invest/
+nextTitle: 把投资分析变成日常
+---
+
+
 # 第 17 章 会议结束不是终点，工作才刚刚开始
 
 **场景**：两小时会开完，纪要有了，但没人跟进，两周后同样的问题又吵一遍。

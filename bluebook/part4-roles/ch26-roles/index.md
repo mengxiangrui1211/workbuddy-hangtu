@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 20
+tags: [岗位]
+scene: 设计岗位级工作流
+next: /bluebook/part4-roles/ch27-industries/
+nextTitle: 行业路线图：从通用到行业工作流
+---
+
+
 # 第 26 章 岗位路线图：不同岗位如何把 WorkBuddy 用深
 
 同一套能力，不同岗位用法不同。下面给几条高频岗位的「用深」路线。

@@ -77,9 +77,22 @@ features:
   </a>
 </div>
 
+## 先挑章，再看图
+
+拿不准从哪进？先打开 [航线图 · 难度地图](/difficulty-map)，28 章的难度、预计用时和主题标签一目了然，按目标挑着读。
+
+<div class="hb-grid">
+  <a class="hb-card" href="/difficulty-map/">
+    <div class="hb-kicker">ROADMAP</div>
+    <h3>航线图 · 难度地图</h3>
+    <p>★☆☆ 入门 · ★★☆ 进阶 · ★★★ 深入。每一章都能独立跑通，挑能立刻动手的先来。</p>
+    <div class="hb-go">打开航线图 →</div>
+  </a>
+</div>
+
 ## 你现在想让 AI 帮你做什么？
 
-不必从头读。带着问题进来，先跑通一个能验收的结果。
+不必从头读。每章头部都标了**难度**和**预计用时**，带着问题进来，先跑通一个能验收的结果。
 
 <div class="hb-grid">
   <a class="hb-card" href="/bluebook/part2-cases/ch11-office/">

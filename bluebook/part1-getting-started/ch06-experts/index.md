@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 12
+tags: [专家]
+scene: 用专家团解决专业问题
+next: /bluebook/part1-getting-started/ch07-connector/
+nextTitle: 使用连接器
+---
+
+
 # 第 6 章 WorkBuddy 的专家和专家团
 
 Skill 是「能力外挂」，**专家（Expert）** 是「领域老手」。当你的问题需要专业纵深（法律、财务、医疗、编程规范……），直接找对应专家更靠谱。

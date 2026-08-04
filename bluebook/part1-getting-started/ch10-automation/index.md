@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 20
+tags: [自动化]
+scene: 设一个定时自动化任务
+next: /bluebook/part1-getting-started/extra-ai-work-system/
+nextTitle: 课外补给：一章看懂 AI 工作系统
+---
+
+
 # 第 10 章 WorkBuddy 自动化任务
 
 会自己跑的任务，才是真正省时间的任务。**自动化（Automation）** 让 WorkBuddy 按时间表或触发条件，自动执行你定义好的工作。

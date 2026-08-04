@@ -1,3 +1,13 @@
+---
+difficulty: 3
+time: 25
+tags: [自媒体, 增长]
+scene: 搭自媒体增长闭环
+next: /bluebook/part2-cases/ch21-geo/
+nextTitle: WorkBuddy 也能做 GEO 专家
+---
+
+
 # 第 20 章 自媒体不只是靠努力，而是一条增长闭环
 
 **场景**：你做自媒体，但选题靠拍脑袋、标题随便起、发了没数据就焦虑。

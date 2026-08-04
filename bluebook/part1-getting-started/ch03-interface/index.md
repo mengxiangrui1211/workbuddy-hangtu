@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 12
+tags: [界面, 工作区]
+scene: 熟悉主界面、任务区与工作区
+next: /bluebook/part1-getting-started/ch04-first-task/
+nextTitle: 快速完成第一个任务
+---
+
+
 # 第 3 章 WorkBuddy 的主界面、任务与工作区
 
 打开客户端，你会看到一个分成几个区域的工作台。先认识它们，后面才不会迷路。

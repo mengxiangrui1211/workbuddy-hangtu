@@ -13,6 +13,7 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: '航海图首页', link: '/' },
+      { text: '航线图 · 难度地图', link: '/difficulty-map' },
       { text: '第一篇 · 使用手册', link: '/bluebook/part1-getting-started/' },
       { text: '第二篇 · 案例篇', link: '/bluebook/part2-cases/' },
       { text: '第三篇 · 进阶篇', link: '/bluebook/part3-advanced/' },
@@ -24,6 +25,7 @@ export default defineConfig({
       {
         text: '开始之前',
         items: [
+          { text: '航线图 · 难度地图', link: '/difficulty-map' },
           { text: '如何阅读这本航海图', link: '/reading-guide' }
         ]
       },

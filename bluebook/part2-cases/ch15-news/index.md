@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 18
+tags: [资讯, 自动化]
+scene: 把信息流变成每日通知
+next: /bluebook/part2-cases/ch16-knowledge/
+nextTitle: 收藏不是知识管理
+---
+
+
 # 第 15 章 资讯整合：把信息流变成每日通知
 
 **场景**：你关注 5 个领域，但没空每天刷。希望每天一睁眼，重要更新已经整理好推给你。

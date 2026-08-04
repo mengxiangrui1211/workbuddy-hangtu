@@ -1,3 +1,13 @@
+---
+difficulty: 1
+time: 15
+tags: [第一个任务]
+scene: 跑通你的第一个真实任务
+next: /bluebook/part1-getting-started/ch05-skill/
+nextTitle: 加载一个真正用得上的 Skill
+---
+
+
 # 第 4 章 快速完成第一个 WorkBuddy 任务
 
 理论到此为止。这一章，我们直接跑通一个**能验收**的小任务。

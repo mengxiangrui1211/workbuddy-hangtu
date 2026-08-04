@@ -1,3 +1,13 @@
+---
+difficulty: 2
+time: 15
+tags: [小程序, IM]
+scene: 把 WorkBuddy 接到微信 / IM
+next: /bluebook/part1-getting-started/ch09-api/
+nextTitle: 如何接入外部 API
+---
+
+
 # 第 8 章 WorkBuddy 接入小程序与 IM 助理
 
 把 WorkBuddy 留在对话框里还不够——接进**微信 / 飞书等 IM** 和**小程序**，你就能在常用入口随时使唤它。
