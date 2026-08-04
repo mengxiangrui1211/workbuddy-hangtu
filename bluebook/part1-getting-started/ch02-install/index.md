@@ -10,6 +10,21 @@ nextTitle: 主界面、任务与工作区
 
 # 第 2 章 下载、安装、登录与更新
 
+<!-- hb-meta-start -->
+<div class="hb-chapter-meta">
+  <div class="hb-meta-row">
+    <span class="hb-meta-item"><span class="hb-meta-k">难度</span> <span class="hb-stars" title="入门">★☆☆</span> <span class="hb-meta-sub">入门</span></span>
+    <span class="hb-meta-item"><span class="hb-meta-k">预计</span> <b>10</b> 分钟</span>
+    <span class="hb-meta-item hb-meta-scene"><span class="hb-meta-k">场景</span> 把它装到你的电脑并登录</span>
+  </div>
+  <div class="hb-meta-tags">
+    <span class="hb-mtag">安装</span>
+    <span class="hb-mtag">登录</span>
+  </div>
+</div>
+<!-- hb-meta-end -->
+
+
 先把船造好，才能出海。
 
 ## 下载与安装
@@ -44,3 +59,18 @@ WorkBuddy 在对话时有三种模式，理解它们能少走很多弯路：
 :::
 
 装好了、登进去了、模式也认识了——下一章我们认识主界面。
+
+
+<!-- hb-review-start -->
+<div class="hb-review">
+  <div class="hb-review-head">⚓ 本章复盘 · 让这一次成功沉淀下来</div>
+  <ul class="hb-review-list">
+    <li>我跑通了本章任务，并对照文中的「验收标准」逐项确认。</li>
+    <li>我把关键的提示词 / 配置 / 命令记进了自己的笔记或知识库。</li>
+    <li>如果这类事会重复出现，我会考虑把它沉淀成 Skill 或自动化。</li>
+  </ul>
+  <div class="hb-review-foot">
+    <a class="hb-review-next" href="/bluebook/part1-getting-started/ch03-interface/">下一站 · 主界面、任务与工作区 →</a>
+  </div>
+</div>
+<!-- hb-review-end -->

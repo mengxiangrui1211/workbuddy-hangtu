@@ -10,6 +10,20 @@ nextTitle: 自媒体增长闭环
 
 # 第 19 章 一句话召唤 AI 视频团队
 
+<!-- hb-meta-start -->
+<div class="hb-chapter-meta">
+  <div class="hb-meta-row">
+    <span class="hb-meta-item"><span class="hb-meta-k">难度</span> <span class="hb-stars" title="进阶">★★☆</span> <span class="hb-meta-sub">进阶</span></span>
+    <span class="hb-meta-item"><span class="hb-meta-k">预计</span> <b>20</b> 分钟</span>
+    <span class="hb-meta-item hb-meta-scene"><span class="hb-meta-k">场景</span> 用 AI 生成视频</span>
+  </div>
+  <div class="hb-meta-tags">
+    <span class="hb-mtag">视频</span>
+  </div>
+</div>
+<!-- hb-meta-end -->
+
+
 **场景**：你想做一条短视频，但脚本、配音、画面、剪辑样样要人，一个人搞不动。
 
 **用到的能力**：多 Agent / 专家团、视频生成 Skill、跨工具闭环。
@@ -43,3 +57,18 @@ nextTitle: 自媒体增长闭环
 ::: info 沉淀
 把这条流水线固化成你的「视频生产 Skill」，下次换个主题直接跑。
 :::
+
+
+<!-- hb-review-start -->
+<div class="hb-review">
+  <div class="hb-review-head">⚓ 本章复盘 · 让这一次成功沉淀下来</div>
+  <ul class="hb-review-list">
+    <li>我跑通了本章任务，并对照文中的「验收标准」逐项确认。</li>
+    <li>我把关键的提示词 / 配置 / 命令记进了自己的笔记或知识库。</li>
+    <li>如果这类事会重复出现，我会考虑把它沉淀成 Skill 或自动化。</li>
+  </ul>
+  <div class="hb-review-foot">
+    <a class="hb-review-next" href="/bluebook/part2-cases/ch20-media/">下一站 · 自媒体增长闭环 →</a>
+  </div>
+</div>
+<!-- hb-review-end -->

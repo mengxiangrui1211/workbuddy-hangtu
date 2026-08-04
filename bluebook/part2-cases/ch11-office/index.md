@@ -10,6 +10,22 @@ nextTitle: 从整理桌面文件这些小事做起
 
 # 第 11 章 办公三件套：Word、Excel、PPT
 
+<!-- hb-meta-start -->
+<div class="hb-chapter-meta">
+  <div class="hb-meta-row">
+    <span class="hb-meta-item"><span class="hb-meta-k">难度</span> <span class="hb-stars" title="入门">★☆☆</span> <span class="hb-meta-sub">入门</span></span>
+    <span class="hb-meta-item"><span class="hb-meta-k">预计</span> <b>15</b> 分钟</span>
+    <span class="hb-meta-item hb-meta-scene"><span class="hb-meta-k">场景</span> 一句话出文档 / 表格 / PPT</span>
+  </div>
+  <div class="hb-meta-tags">
+    <span class="hb-mtag">办公</span>
+    <span class="hb-mtag">PPT</span>
+    <span class="hb-mtag">Excel</span>
+  </div>
+</div>
+<!-- hb-meta-end -->
+
+
 **场景**：周五下午，老板要一份 Q3 复盘 PPT、一张数据表、一段总结稿。你只有一堆散乱要点。
 
 **用到的能力**：文档生成、数据分析、PPT 生成、结果区预览。
@@ -46,3 +62,18 @@ AI 算的环比/占比偶尔会算错。对外发布前，自己抽两行验算�
 :::
 
 下一篇：**从整理桌面文件这些小事做起**。
+
+
+<!-- hb-review-start -->
+<div class="hb-review">
+  <div class="hb-review-head">⚓ 本章复盘 · 让这一次成功沉淀下来</div>
+  <ul class="hb-review-list">
+    <li>我跑通了本章任务，并对照文中的「验收标准」逐项确认。</li>
+    <li>我把关键的提示词 / 配置 / 命令记进了自己的笔记或知识库。</li>
+    <li>如果这类事会重复出现，我会考虑把它沉淀成 Skill 或自动化。</li>
+  </ul>
+  <div class="hb-review-foot">
+    <a class="hb-review-next" href="/bluebook/part2-cases/ch12-files/">下一站 · 从整理桌面文件这些小事做起 →</a>
+  </div>
+</div>
+<!-- hb-review-end -->

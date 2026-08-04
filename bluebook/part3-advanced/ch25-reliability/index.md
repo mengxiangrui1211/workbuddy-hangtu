@@ -10,6 +10,21 @@ nextTitle: 岗位路线图：把 WorkBuddy 用深
 
 # 第 25 章 自动化工作流的可靠性
 
+<!-- hb-meta-start -->
+<div class="hb-chapter-meta">
+  <div class="hb-meta-row">
+    <span class="hb-meta-item"><span class="hb-meta-k">难度</span> <span class="hb-stars" title="深入">★★★</span> <span class="hb-meta-sub">深入</span></span>
+    <span class="hb-meta-item"><span class="hb-meta-k">预计</span> <b>25</b> 分钟</span>
+    <span class="hb-meta-item hb-meta-scene"><span class="hb-meta-k">场景</span> 让自动化稳定可靠</span>
+  </div>
+  <div class="hb-meta-tags">
+    <span class="hb-mtag">可靠性</span>
+    <span class="hb-mtag">自动化</span>
+  </div>
+</div>
+<!-- hb-meta-end -->
+
+
 自动化跑一次成功不难，**天天跑都不翻车**才难。这一章给你的自动化「上保险」。
 
 ## 八条可靠性准则
@@ -51,3 +66,18 @@ nextTitle: 岗位路线图：把 WorkBuddy 用深
 ::: info 到此，你已具备「系统」能力
 TASK→CASE→WORKFLOW→AI TEAM 四层，你都走过了。最后一篇，把它落到岗位和行业。
 :::
+
+
+<!-- hb-review-start -->
+<div class="hb-review">
+  <div class="hb-review-head">⚓ 本章复盘 · 让这一次成功沉淀下来</div>
+  <ul class="hb-review-list">
+    <li>我跑通了本章任务，并对照文中的「验收标准」逐项确认。</li>
+    <li>我把关键的提示词 / 配置 / 命令记进了自己的笔记或知识库。</li>
+    <li>如果这类事会重复出现，我会考虑把它沉淀成 Skill 或自动化。</li>
+  </ul>
+  <div class="hb-review-foot">
+    <a class="hb-review-next" href="/bluebook/part4-roles/ch26-roles/">下一站 · 岗位路线图：把 WorkBuddy 用深 →</a>
+  </div>
+</div>
+<!-- hb-review-end -->

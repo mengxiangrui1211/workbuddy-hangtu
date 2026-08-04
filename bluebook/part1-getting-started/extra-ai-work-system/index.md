@@ -10,6 +10,20 @@ nextTitle: 办公三件套：Word、Excel、PPT
 
 # 课外补给：一章看懂 AI 工作系统
 
+<!-- hb-meta-start -->
+<div class="hb-chapter-meta">
+  <div class="hb-meta-row">
+    <span class="hb-meta-item"><span class="hb-meta-k">难度</span> <span class="hb-stars" title="进阶">★★☆</span> <span class="hb-meta-sub">进阶</span></span>
+    <span class="hb-meta-item"><span class="hb-meta-k">预计</span> <b>15</b> 分钟</span>
+    <span class="hb-meta-item hb-meta-scene"><span class="hb-meta-k">场景</span> 理解 TASK→CASE→WORKFLOW→TEAM</span>
+  </div>
+  <div class="hb-meta-tags">
+    <span class="hb-mtag">方法论</span>
+  </div>
+</div>
+<!-- hb-meta-end -->
+
+
 前面 10 章教你把 WorkBuddy 用起来。这一章给你一张「全局地图」，后面所有案例和进阶，都挂在它上面。
 
 ## 四个层级
@@ -54,3 +68,18 @@ TASK ──▶ CASE ──▶ WORKFLOW ──▶ AI TEAM
 :::
 
 回到 [第一篇导览](/bluebook/part1-getting-started/) 或进入 [第二篇案例篇](/bluebook/part2-cases/)。
+
+
+<!-- hb-review-start -->
+<div class="hb-review">
+  <div class="hb-review-head">⚓ 本章复盘 · 让这一次成功沉淀下来</div>
+  <ul class="hb-review-list">
+    <li>我跑通了本章任务，并对照文中的「验收标准」逐项确认。</li>
+    <li>我把关键的提示词 / 配置 / 命令记进了自己的笔记或知识库。</li>
+    <li>如果这类事会重复出现，我会考虑把它沉淀成 Skill 或自动化。</li>
+  </ul>
+  <div class="hb-review-foot">
+    <a class="hb-review-next" href="/bluebook/part2-cases/ch11-office/">下一站 · 办公三件套：Word、Excel、PPT →</a>
+  </div>
+</div>
+<!-- hb-review-end -->

@@ -10,6 +10,20 @@ nextTitle: 资讯整合：把信息流变成每日通知
 
 # 第 14 章 生活助手的价值，是减少琐碎
 
+<!-- hb-meta-start -->
+<div class="hb-chapter-meta">
+  <div class="hb-meta-row">
+    <span class="hb-meta-item"><span class="hb-meta-k">难度</span> <span class="hb-stars" title="入门">★☆☆</span> <span class="hb-meta-sub">入门</span></span>
+    <span class="hb-meta-item"><span class="hb-meta-k">预计</span> <b>12</b> 分钟</span>
+    <span class="hb-meta-item hb-meta-scene"><span class="hb-meta-k">场景</span> 用 AI 打理生活琐事</span>
+  </div>
+  <div class="hb-meta-tags">
+    <span class="hb-mtag">生活</span>
+  </div>
+</div>
+<!-- hb-meta-end -->
+
+
 **场景**：旅游攻略、健身计划、送礼清单、聚餐点菜——这些小事单独做不值当，堆一起很耗神。
 
 **用到的能力**：对话规划、联网搜索、IM 推送。
@@ -40,3 +54,18 @@ nextTitle: 资讯整合：把信息流变成每日通知
 ::: info 生活也能自动化
 「每周日 20:00 给我下周的健身+饮食计划」——这种规律性生活事务，直接做成自动化。
 :::
+
+
+<!-- hb-review-start -->
+<div class="hb-review">
+  <div class="hb-review-head">⚓ 本章复盘 · 让这一次成功沉淀下来</div>
+  <ul class="hb-review-list">
+    <li>我跑通了本章任务，并对照文中的「验收标准」逐项确认。</li>
+    <li>我把关键的提示词 / 配置 / 命令记进了自己的笔记或知识库。</li>
+    <li>如果这类事会重复出现，我会考虑把它沉淀成 Skill 或自动化。</li>
+  </ul>
+  <div class="hb-review-foot">
+    <a class="hb-review-next" href="/bluebook/part2-cases/ch15-news/">下一站 · 资讯整合：把信息流变成每日通知 →</a>
+  </div>
+</div>
+<!-- hb-review-end -->

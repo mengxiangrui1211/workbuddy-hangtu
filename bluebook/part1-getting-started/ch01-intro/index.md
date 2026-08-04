@@ -10,6 +10,20 @@ nextTitle: 下载、安装、登录与更新
 
 # 第 1 章 初识 WorkBuddy
 
+<!-- hb-meta-start -->
+<div class="hb-chapter-meta">
+  <div class="hb-meta-row">
+    <span class="hb-meta-item"><span class="hb-meta-k">难度</span> <span class="hb-stars" title="入门">★☆☆</span> <span class="hb-meta-sub">入门</span></span>
+    <span class="hb-meta-item"><span class="hb-meta-k">预计</span> <b>8</b> 分钟</span>
+    <span class="hb-meta-item hb-meta-scene"><span class="hb-meta-k">场景</span> 用一句话建立 WorkBuddy 的心智模型</span>
+  </div>
+  <div class="hb-meta-tags">
+    <span class="hb-mtag">产品认知</span>
+  </div>
+</div>
+<!-- hb-meta-end -->
+
+
 WorkBuddy 是腾讯出品的**全场景 AI 办公工作台**。一句话描述它的不同：普通 AI 聊天工具「给你建议」，WorkBuddy「替你把事办了」。
 
 ## 它和你用过的 AI 对话，差在哪
@@ -46,3 +60,18 @@ WorkBuddy 能力很强，但**对外发布、金额交易、隐私数据**这类
 > 你负责定目标和验收，它负责过程和产物。
 
 下一章，我们把它装到你的电脑上。
+
+
+<!-- hb-review-start -->
+<div class="hb-review">
+  <div class="hb-review-head">⚓ 本章复盘 · 让这一次成功沉淀下来</div>
+  <ul class="hb-review-list">
+    <li>我跑通了本章任务，并对照文中的「验收标准」逐项确认。</li>
+    <li>我把关键的提示词 / 配置 / 命令记进了自己的笔记或知识库。</li>
+    <li>如果这类事会重复出现，我会考虑把它沉淀成 Skill 或自动化。</li>
+  </ul>
+  <div class="hb-review-foot">
+    <a class="hb-review-next" href="/bluebook/part1-getting-started/ch02-install/">下一站 · 下载、安装、登录与更新 →</a>
+  </div>
+</div>
+<!-- hb-review-end -->
