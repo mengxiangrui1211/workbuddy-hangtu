@@ -416,3 +416,14 @@
   .hb-rm-tags { display: none; }
   .hb-meta-scene { flex-basis: 100%; }
 }
+
+/* 首页 hero 角色图放大：VitePress 默认封顶 192px 偏小，放大到 320px 填满默认 320 容器 */
+.VPHero .image-src {
+  max-width: 320px;
+  max-height: 320px;
+}
+/* 宽屏也让图片能更大一点，与文字区更协调 */
+@media (min-width: 960px) {
+  .VPHero .image-container { width: 360px; height: 360px; }
+  .VPHero .image-src { max-width: 360px; max-height: 360px; }
+}
