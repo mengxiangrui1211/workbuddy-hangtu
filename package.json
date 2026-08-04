@@ -1,0 +1,16 @@
+{
+  "name": "workbuddy-hangtu",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "WorkBuddy 航海图：从第一项任务，到一支 AI 舰队 —— 原创 VitePress 实战教程",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.3",
+    "vue": "^3.4.0"
+  }
+}

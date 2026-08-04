@@ -1,0 +1,206 @@
+/* ============================================================
+   WorkBuddy 航海图 · 自定义主题
+   海洋蓝青（Ocean）配色，深浅双主题，沿用 VitePress 原生
+   tip/warning/danger/info/details 容器，补充首页与卡片样式。
+   ============================================================ */
+
+:root {
+  /* 品牌主色：海蓝 → 青 */
+  --vp-c-brand-1: #0EA5E9;
+  --vp-c-brand-2: #38BDF8;
+  --vp-c-brand-3: #7DD3FC;
+  --vp-c-brand-soft: rgba(14, 165, 233, 0.14);
+  --vp-c-brand-softer: rgba(14, 165, 233, 0.06);
+
+  /* 强调色：航行青绿 */
+  --hb-accent: #14B8A6;
+  --hb-accent-2: #2DD4BF;
+
+  --vp-font-family-base: "PingFang SC", "Microsoft YaHei", "Helvetica Neue",
+    Helvetica, Arial, "Noto Sans SC", sans-serif;
+  --vp-font-family-mono: "JetBrains Mono", "Fira Code", "SFMono-Regular",
+    Consolas, "Liberation Mono", Menlo, monospace;
+}
+
+.dark {
+  --vp-c-brand-1: #38BDF8;
+  --vp-c-brand-2: #7DD3FC;
+  --vp-c-brand-3: #0EA5E9;
+  --vp-c-brand-soft: rgba(56, 189, 248, 0.16);
+  --hb-accent: #2DD4BF;
+}
+
+/* 首页 Hero 下方渐变光晕 */
+:root {
+  --hb-glow: radial-gradient(900px 420px at 50% -8%, rgba(14, 165, 233, 0.18), transparent 70%);
+}
+.dark {
+  --hb-glow: radial-gradient(900px 420px at 50% -8%, rgba(56, 189, 248, 0.16), transparent 70%);
+}
+
+/* ===== 首页区块 ===== */
+.hb-home-glow {
+  position: relative;
+}
+.hb-home-glow::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: var(--hb-glow);
+  pointer-events: none;
+  z-index: -1;
+}
+
+.hb-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin: 28px 0 8px;
+}
+.hb-stat {
+  flex: 1 1 120px;
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  border-radius: 14px;
+  padding: 18px 20px;
+  text-align: center;
+}
+.hb-stat b {
+  display: block;
+  font-size: 30px;
+  line-height: 1.1;
+  color: var(--vp-c-brand-1);
+  font-weight: 800;
+}
+.hb-stat span {
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+}
+
+.hb-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.hb-tag {
+  font-size: 12px;
+  border: 1px solid var(--vp-c-brand-soft);
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand-1);
+  border-radius: 999px;
+  padding: 4px 12px;
+}
+
+.hb-section {
+  margin: 56px 0 8px;
+}
+.hb-section h2 {
+  font-size: 24px;
+  margin-bottom: 6px;
+}
+.hb-section .hb-sub {
+  color: var(--vp-c-text-2);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.hb-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 16px;
+}
+.hb-card {
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  border-radius: 16px;
+  padding: 20px;
+  transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+.hb-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--vp-c-brand-1);
+  box-shadow: 0 10px 30px rgba(14, 165, 233, 0.12);
+}
+.hb-card .hb-kicker {
+  font-size: 12px;
+  color: var(--vp-c-brand-1);
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+.hb-card h3 {
+  margin: 8px 0 6px;
+  font-size: 17px;
+}
+.hb-card p {
+  margin: 0;
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+.hb-card .hb-go {
+  margin-top: 12px;
+  font-size: 13px;
+  color: var(--vp-c-brand-1);
+  font-weight: 600;
+}
+
+/* 从任务到团队：四步流程 */
+.hb-flow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 14px;
+  counter-reset: step;
+}
+.hb-step {
+  border: 1px solid var(--vp-c-divider);
+  background: var(--vp-c-bg-soft);
+  border-radius: 14px;
+  padding: 18px;
+  position: relative;
+}
+.hb-step::before {
+  counter-increment: step;
+  content: "0" counter(step);
+  font-size: 12px;
+  font-weight: 800;
+  color: var(--vp-c-brand-1);
+  border: 1px solid var(--vp-c-brand-soft);
+  background: var(--vp-c-brand-soft);
+  border-radius: 8px;
+  padding: 2px 8px;
+}
+.hb-step b {
+  display: block;
+  margin: 10px 0 4px;
+  font-size: 15px;
+}
+.hb-step span {
+  font-size: 13px;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}
+
+/* 章节内：小提示条 */
+.hb-note {
+  border-left: 3px solid var(--hb-accent);
+  background: var(--vp-c-brand-softer);
+  padding: 10px 14px;
+  border-radius: 0 8px 8px 0;
+  font-size: 14px;
+  color: var(--vp-c-text-1);
+  margin: 16px 0;
+}
+
+/* 让 VitePress 原生容器更圆润 */
+.vp-doc .tip, .vp-doc .info, .vp-doc .warning, .vp-doc .danger {
+  border-radius: 10px;
+}
+
+/* 顶部进度条色 */
+#nprogress .bar {
+  background: var(--vp-c-brand-1) !important;
+}
