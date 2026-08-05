@@ -126,6 +126,11 @@
   grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
   gap: 16px;
 }
+/* 覆盖 VitePress 默认 .vp-doc a 的下划线：卡片/按钮是整块链接，不应显示下划线
+   （.vp-doc a 特异性 (0,1,1) 高于 .hb-card (0,1,0)，必须用更高特异性规则覆盖） */
+.vp-doc .hb-home-glow a.hb-card,
+.vp-doc .hb-home-glow a.hb-cta-btn { text-decoration: none; }
+
 .hb-card {
   border: 1px solid var(--vp-c-divider);
   background: var(--vp-c-bg-soft);
