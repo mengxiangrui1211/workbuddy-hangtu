@@ -213,22 +213,20 @@ button {
 }
 
 .wb-hero {
-  position: relative;
   overflow: hidden;
   border: 2px solid var(--wb-ink);
   border-radius: 8px;
-  background: linear-gradient(180deg, #0b2138 0%, #0e2c46 55%, #103a55 100%);
-  box-shadow: 0 18px 60px rgba(11, 33, 56, 0.18);
+  background: var(--wb-acid);
+  box-shadow: 0 18px 60px rgba(11, 33, 56, 0.1);
 }
 
 .wb-hero__stage {
-  position: relative;
   display: grid;
   grid-template-columns: minmax(0, 1.08fr) minmax(460px, 0.92fr);
   min-height: 568px;
   background:
-    radial-gradient(circle at 75% 22%, rgba(14, 165, 233, 0.28), transparent 32%),
-    radial-gradient(circle at 20% 85%, rgba(20, 184, 166, 0.18), transparent 36%);
+    radial-gradient(circle at 75% 30%, rgba(255, 255, 255, 0.22), transparent 28%),
+    var(--wb-acid);
 }
 
 .wb-hero__copy {
@@ -242,12 +240,11 @@ button {
 .wb-hero__copy h1 {
   max-width: 720px;
   margin: 24px 0 18px;
-  color: #ffffff;
+  color: #06283b;
   font-size: clamp(56px, 5.4vw, 82px);
   font-weight: 850;
   line-height: 1.06;
   letter-spacing: -0.07em;
-  text-shadow: 0 2px 24px rgba(0, 0, 0, 0.25);
 }
 
 .wb-hero__copy .wb-hero__title--hangtu {
@@ -259,15 +256,11 @@ button {
 .wb-hero__summary {
   max-width: 680px;
   margin: 0;
-  color: rgba(255, 255, 255, 0.86);
+  color: #0e2f44;
   font-size: 19px;
   font-weight: 540;
   line-height: 1.85;
   overflow-wrap: anywhere;
-}
-
-.wb-pixel-label {
-  color: rgba(255, 255, 255, 0.78) !important;
 }
 
 .wb-hero__actions {
@@ -300,9 +293,8 @@ button {
 }
 
 .wb-button--primary {
-  color: #0b2138 !important;
-  background: #ffffff;
-  border-color: #ffffff;
+  color: #fff !important;
+  background: var(--wb-ink);
 }
 
 .wb-button--primary .hn {
@@ -310,13 +302,7 @@ button {
 }
 
 .wb-button--outline {
-  color: #ffffff !important;
   background: transparent;
-  border-color: rgba(255, 255, 255, 0.7);
-}
-
-.wb-button--outline:hover {
-  box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.7);
 }
 
 .wb-hero__art {
@@ -350,7 +336,7 @@ button {
   position: absolute;
   top: 300px;
   right: 70px;
-  color: rgba(255, 255, 255, 0.55);
+  color: #06283b;
   font-family: var(--wb-pixel);
   font-size: 30px;
 }
@@ -401,7 +387,7 @@ button {
   bottom: 26px;
   display: flex;
   gap: 12px;
-  color: rgba(255, 255, 255, 0.78);
+  color: #06283b;
   font-family: var(--wb-pixel);
   font-size: 13px;
 }
@@ -413,30 +399,6 @@ button {
 
 .wb-hero__metrics b {
   font-weight: 400;
-}
-
-.wb-hero__waves {
-  position: absolute;
-  bottom: -2px;
-  left: 0;
-  width: 100%;
-  height: 110px;
-  pointer-events: none;
-  line-height: 0;
-}
-
-.wb-hero__waves svg {
-  width: 100%;
-  height: 100%;
-  display: block;
-}
-
-.wb-hero__wave-1 path {
-  fill: rgba(20, 184, 166, 0.32);
-}
-
-.wb-hero__wave-2 path {
-  fill: rgba(14, 165, 233, 0.42);
 }
 
 .wb-value-strip {

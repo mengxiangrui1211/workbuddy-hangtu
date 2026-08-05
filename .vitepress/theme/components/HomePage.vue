@@ -50,15 +50,6 @@ import PixelIconSprite from "./PixelIconSprite.vue";
             <span><b>∞</b> WORKFLOWS</span>
           </div>
         </div>
-
-        <div class="wb-hero__waves" aria-hidden="true">
-          <svg class="wb-hero__wave-1" viewBox="0 0 1440 110" preserveAspectRatio="none">
-            <path d="M0 70 C 240 30 480 110 720 70 C 960 30 1200 110 1440 70 L1440 110 L0 110 Z"/>
-          </svg>
-          <svg class="wb-hero__wave-2" viewBox="0 0 1440 110" preserveAspectRatio="none">
-            <path d="M0 80 C 260 40 520 110 760 80 C 1000 40 1240 110 1440 80 L1440 110 L0 110 Z"/>
-          </svg>
-        </div>
       </div>
 
       <div class="wb-value-strip" aria-label="航海图价值">
