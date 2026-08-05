@@ -216,8 +216,14 @@ button {
   overflow: hidden;
   border: 2px solid var(--wb-ink);
   border-radius: 8px;
-  background: var(--wb-acid);
-  box-shadow: 0 18px 60px rgba(11, 33, 56, 0.1);
+  background: linear-gradient(135deg, #eef7ff 0%, #e0f2fe 100%);
+  box-shadow: 0 18px 60px rgba(11, 33, 56, 0.12);
+}
+
+html.dark .wb-hero {
+  background: linear-gradient(135deg, #0b2138 0%, #0a1729 100%);
+  border-color: #16395c;
+  box-shadow: 0 18px 60px rgba(0, 0, 0, 0.45);
 }
 
 .wb-hero__stage {
@@ -225,8 +231,14 @@ button {
   grid-template-columns: minmax(0, 1.08fr) minmax(460px, 0.92fr);
   min-height: 568px;
   background:
-    radial-gradient(circle at 75% 30%, rgba(255, 255, 255, 0.22), transparent 28%),
-    var(--wb-acid);
+    radial-gradient(circle at 78% 26%, rgba(255, 255, 255, 0.7), transparent 42%),
+    linear-gradient(120deg, #eef7ff 0%, #e0f2fe 100%);
+}
+
+html.dark .wb-hero__stage {
+  background:
+    radial-gradient(circle at 78% 26%, rgba(56, 189, 248, 0.18), transparent 44%),
+    linear-gradient(120deg, #0b2138 0%, #0a1729 100%);
 }
 
 .wb-hero__copy {
@@ -247,6 +259,10 @@ button {
   letter-spacing: -0.07em;
 }
 
+html.dark .wb-hero__copy h1 {
+  color: #f2f7ff;
+}
+
 .wb-hero__copy .wb-hero__title--hangtu {
   font-size: clamp(52px, 4.7vw, 70px);
   letter-spacing: -0.06em;
@@ -261,6 +277,10 @@ button {
   font-weight: 540;
   line-height: 1.85;
   overflow-wrap: anywhere;
+}
+
+html.dark .wb-hero__summary {
+  color: rgba(226, 240, 255, 0.82);
 }
 
 .wb-hero__actions {
@@ -305,6 +325,21 @@ button {
   background: transparent;
 }
 
+html.dark .wb-button {
+  border-color: #5b8fb8;
+  color: #e8f2ff !important;
+}
+
+html.dark .wb-button--primary {
+  background: #1c4f7a;
+  border-color: #1c4f7a;
+  color: #fff !important;
+}
+
+html.dark .wb-button:hover {
+  box-shadow: 4px 4px 0 #1c4f7a;
+}
+
 .wb-hero__art {
   position: relative;
   min-height: 480px;
@@ -328,6 +363,10 @@ button {
   filter: drop-shadow(0 22px 38px rgba(11, 33, 56, 0.22));
 }
 
+html.dark .wb-hero__logo-card img {
+  filter: drop-shadow(0 22px 38px rgba(0, 0, 0, 0.55));
+}
+
 .wb-hero__metrics-bar {
   display: flex;
   gap: 28px;
@@ -339,6 +378,11 @@ button {
   letter-spacing: 0.08em;
   border-top: 1px solid rgba(11, 33, 56, 0.12);
   border-bottom: 1px solid rgba(11, 33, 56, 0.12);
+}
+
+html.dark .wb-hero__metrics-bar {
+  color: #cfe2f5;
+  border-color: rgba(203, 225, 245, 0.18);
 }
 
 .wb-hero__metrics-bar span + span::before {
