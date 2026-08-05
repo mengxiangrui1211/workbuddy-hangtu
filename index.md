@@ -46,6 +46,15 @@ features:
   ✅ Git 自动化部署已接入 · 改完 push 即自动更新（2026-08-04 端到端验证）
 </div>
 
+## 我们坚持的四件事
+
+<div class="hb-value-strip">
+  <div class="hb-value-item"><b>真实任务</b><small>REAL TASKS</small></div>
+  <div class="hb-value-item"><b>可复现</b><small>REPRODUCIBLE</small></div>
+  <div class="hb-value-item"><b>社区共创</b><small>OPEN SOURCE</small></div>
+  <div class="hb-value-item"><b>系统沉淀</b><small>WORK SYSTEM</small></div>
+</div>
+
 ## 四段航程，按你的目标进入
 
 从个人上手到组织落地，循序渐进，构建你的 WorkBuddy 工作系统。
@@ -141,5 +150,19 @@ features:
 ::: tip 关于本航海图
 本教程为原创内容，结构参考社区开源项目《WorkBuddy 实战蓝皮书》（MIT），但正文独立撰写并换用「航海图」品牌。涉及产品功能、界面、价格等时效信息，请以 [WorkBuddy 官方文档](https://www.workbuddy.cn/docs/workbuddy/Overview) 为准。
 :::
+
+## 一起把这张图画大
+
+<div class="hb-community-cta">
+  <div class="hb-cta-copy">
+    <p class="hb-cta-kicker">BUILD IN PUBLIC · LEARN IN PUBLIC</p>
+    <h2>这本航海图，也可以由你继续写下去。</h2>
+    <p>你跑通的实战任务、好用的 Skill、想补充的航线？提交案例或共创章节，让更多人少走弯路。</p>
+  </div>
+  <div class="hb-cta-actions">
+    <a class="hb-cta-btn hb-cta-btn--primary" href="/contribute">参与共创</a>
+    <a class="hb-cta-btn hb-cta-btn--ghost" href="https://github.com/mengxiangrui1211/workbuddy-hangtu" target="_blank" rel="noreferrer">前往 GitHub</a>
+  </div>
+</div>
 
 </div>

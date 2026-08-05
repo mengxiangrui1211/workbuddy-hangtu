@@ -449,3 +449,110 @@
 /* 投稿模板代码块在共创/案例墙页更醒目 */
 .showcase-md .vp-doc h1,
 .contribute-md .vp-doc h1 { scroll-margin-top: 24px; }
+
+/* ===== 首页价值主张带（对齐原版 Value Strip） ===== */
+.hb-value-strip {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin: 26px 0 8px;
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 14px;
+  overflow: hidden;
+  background: linear-gradient(90deg, var(--vp-c-brand-1), var(--hb-accent));
+}
+.hb-value-item {
+  padding: 18px 16px;
+  text-align: center;
+  color: #fff;
+  border-right: 1px solid rgba(255, 255, 255, 0.20);
+}
+.hb-value-item:last-child { border-right: 0; }
+.hb-value-item b {
+  display: block;
+  font-size: 17px;
+  font-weight: 800;
+  letter-spacing: 0.02em;
+}
+.hb-value-item small {
+  font-size: 10.5px;
+  letter-spacing: 0.10em;
+  opacity: 0.82;
+  font-family: var(--vp-font-family-mono);
+}
+@media (max-width: 768px) {
+  .hb-value-strip { grid-template-columns: repeat(2, 1fr); }
+  .hb-value-item:nth-child(2) { border-right: 0; }
+  .hb-value-item:nth-child(1),
+  .hb-value-item:nth-child(2) { border-bottom: 1px solid rgba(255, 255, 255, 0.20); }
+}
+
+/* ===== 首页共创 CTA（对齐原版 Community CTA） ===== */
+.hb-community-cta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 22px;
+  margin: 40px 0 12px;
+  padding: 28px 30px;
+  border-radius: 16px;
+  background: linear-gradient(120deg, #0c4a6e, #0e7490);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  color: #fff;
+}
+.dark .hb-community-cta {
+  background: linear-gradient(120deg, #082f49, #134e4a);
+}
+.hb-cta-kicker {
+  font-size: 12px;
+  letter-spacing: 0.10em;
+  opacity: 0.85;
+  margin: 0 0 8px;
+  font-family: var(--vp-font-family-mono);
+}
+.hb-cta-copy h2 {
+  color: #fff;
+  font-size: 22px;
+  line-height: 1.3;
+  margin: 0 0 8px;
+}
+.hb-cta-copy p {
+  color: rgba(255, 255, 255, 0.85);
+  font-size: 14px;
+  margin: 0;
+  max-width: 580px;
+  line-height: 1.7;
+}
+.hb-cta-actions {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+.hb-cta-btn {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 14px;
+  padding: 11px 20px;
+  border-radius: 10px;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+}
+.hb-cta-btn--primary {
+  background: #fff;
+  color: #0c4a6e;
+}
+.hb-cta-btn--primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 0 rgba(0, 0, 0, 0.28);
+}
+.hb-cta-btn--ghost {
+  background: transparent;
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+.hb-cta-btn--ghost:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
+@media (max-width: 768px) {
+  .hb-community-cta { flex-direction: column; align-items: flex-start; }
+  .hb-cta-btn { width: 100%; text-align: center; }
+}
