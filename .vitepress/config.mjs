@@ -1,4 +1,14 @@
 import { defineConfig } from 'vitepress'
+import { createPageDescription, createSeoHead } from './seo'
+import { configureMermaidMarkdown } from './mermaid-markdown'
+import { fileURLToPath } from 'node:url'
+import { resolve } from 'node:path'
+
+const siteUrl = process.env.VITEPRESS_SITE_URL || 'https://workbuddy-hangtu.pages.dev'
+
+// mermaid 暂未安装（npm 在本机被环境拦截）。本站内容暂无 mermaid 图，
+// 用本地桩模块代替，让构建通过；运行时缺失由 MermaidDiagram 的 try/catch 兜成源码回退。
+const mermaidStub = fileURLToPath(new URL('./mermaid-stub.js', import.meta.url))
 
 export default defineConfig({
   title: 'WorkBuddy 航海图',
@@ -6,12 +16,50 @@ export default defineConfig({
   description: 'WorkBuddy 从零到精通原创实战教程：安装上手、真实案例、进阶 Skill 与多 Agent、岗位与行业落地。',
   lang: 'zh-CN',
   head: [
-    ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }]
+    ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }],
+    ['meta', { name: 'theme-color', content: '#14b8a6' }],
+    ['meta', { name: 'author', content: 'WorkBuddy 航海图贡献者' }],
+    ['meta', { name: 'keywords', content: 'WorkBuddy,WorkBuddy 教程,AI Agent,AI 工作系统,Skills,连接器,自动化,多智能体,职场 AI,航海图' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap' }]
   ],
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: true,
   appearance: 'dark',
+  transformPageData: (pageData, { siteConfig }) => {
+    if (pageData.relativePath.startsWith('cases/')) {
+      pageData.frontmatter.aside = false
+      pageData.frontmatter.outline = false
+    }
+    return {
+      description: createPageDescription(siteConfig.srcDir, pageData)
+    }
+  },
+  transformHead: (context) => createSeoHead(siteUrl, context),
+  markdown: {
+    config: configureMermaidMarkdown,
+    image: {
+      lazyLoading: true
+    },
+    theme: {
+      light: 'github-light',
+      dark: 'github-dark'
+    }
+  },
+  vite: {
+    resolve: {
+      alias: {
+        mermaid: mermaidStub
+      }
+    },
+    build: {
+      // 本机 safe-delete 包装器会拦截 VitePress 清理 dist 时的 unlink（EPERM）。
+      // 关闭自动清空，构建前由脚本手动把旧 dist 改名移走，避免 unlink。
+      emptyOutDir: false
+    }
+  },
   themeConfig: {
     logo: { src: '/logo.png', alt: 'WorkBuddy 航海图' },
     nav: [
@@ -96,14 +144,22 @@ export default defineConfig({
     outline: { label: '本页目录', level: [2, 3] },
     docFooter: { prev: '上一章', next: '下一章' },
     lastUpdated: { text: '最后更新' },
+    editLink: {
+      pattern: 'https://github.com/mengxiangrui1211/workbuddy-hangtu/edit/main/:path',
+      text: '在 GitHub 上改进此页'
+    },
     search: { provider: 'local', options: { translations: { button: { buttonText: '搜索' }, modal: { noResultsText: '找不到结果', resetButtonTitle: '重置', footer: { selectText: '选择', navigateText: '切换' } } } } },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/AlephAITech/WorkBuddyGuide' }
+      { icon: 'github', link: 'https://github.com/mengxiangrui1211/workbuddy-hangtu' }
     ],
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '菜单',
     darkModeSwitchLabel: '主题',
     lightModeSwitchTitle: '切换到亮色',
-    darkModeSwitchTitle: '切换到暗色'
+    darkModeSwitchTitle: '切换到暗色',
+    footer: {
+      message: '以真实任务为主线的 WorkBuddy 原创实战读本 · 像素图标参考 WorkBuddy 实战蓝皮书（MIT）',
+      copyright: 'Copyright © 2026 WorkBuddy 航海图贡献者'
+    }
   }
 })
