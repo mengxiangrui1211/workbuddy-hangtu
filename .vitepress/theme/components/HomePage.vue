@@ -27,29 +27,17 @@ import PixelIconSprite from "./PixelIconSprite.vue";
           </div>
         </div>
 
-        <div class="wb-hero__art" aria-label="WorkBuddy 航海图 像素图标组合">
-          <span class="wb-hero__monogram">NAV_</span>
+        <div class="wb-hero__art" aria-label="WorkBuddy 航海图">
           <div class="wb-hero__logo-card">
             <img src="/logo.png" alt="WorkBuddy 航海图" />
           </div>
-          <span class="wb-icon-card wb-icon-card--buddy">
-            <PixelIcon name="compass" />
-          </span>
-          <span class="wb-icon-card wb-icon-card--book">
-            <PixelIcon name="anchor" />
-          </span>
-          <span class="wb-icon-card wb-icon-card--flow">
-            <PixelIcon name="book" />
-          </span>
-          <span class="wb-icon-card wb-icon-card--work">
-            <PixelIcon name="briefcase" />
-          </span>
-          <div class="wb-hero__metrics" aria-label="航海图内容规模">
-            <span><b>27</b> CHAPTERS</span>
-            <span><b>4</b> PARTS</span>
-            <span><b>∞</b> WORKFLOWS</span>
-          </div>
         </div>
+      </div>
+
+      <div class="wb-hero__metrics-bar" aria-label="航海图内容规模">
+        <span><b>27</b> CHAPTERS</span>
+        <span><b>4</b> PARTS</span>
+        <span><b>∞</b> WORKFLOWS</span>
       </div>
 
       <div class="wb-value-strip" aria-label="航海图价值">

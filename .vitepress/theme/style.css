@@ -307,98 +307,49 @@ button {
 
 .wb-hero__art {
   position: relative;
-  min-height: 568px;
+  min-height: 480px;
 }
 
 .wb-hero__logo-card {
   position: absolute;
-  top: 54px;
-  right: 56px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
   display: grid;
-  width: 226px;
-  height: 226px;
+  width: 360px;
+  height: 360px;
   place-items: center;
-  padding: 22px;
-  border: 2px solid rgba(11, 33, 56, 0.16);
-  border-radius: 12px;
-  background: #fff;
-  box-shadow: 0 12px 30px rgba(11, 33, 56, 0.14);
-  transform: rotate(3deg);
 }
 
 .wb-hero__logo-card img {
   width: 100%;
   height: 100%;
   object-fit: contain;
+  filter: drop-shadow(0 22px 38px rgba(11, 33, 56, 0.22));
 }
 
-.wb-hero__monogram {
-  position: absolute;
-  top: 300px;
-  right: 70px;
-  color: #06283b;
-  font-family: var(--wb-pixel);
-  font-size: 30px;
-}
-
-.wb-icon-card {
-  position: absolute;
-  display: grid;
-  width: 112px;
-  height: 112px;
-  place-items: center;
-  border: 1px solid rgba(11, 33, 56, 0.12);
-  color: #06283b;
-  background: #fff;
-  box-shadow: 0 10px 25px rgba(11, 33, 56, 0.1);
-}
-
-.wb-icon-card .hn {
-  font-size: 72px;
-}
-
-.wb-icon-card--buddy {
-  bottom: 86px;
-  left: 14%;
-  transform: rotate(-7deg);
-}
-
-.wb-icon-card--book {
-  top: 110px;
-  left: 8%;
-  transform: rotate(8deg);
-}
-
-.wb-icon-card--flow {
-  bottom: 60px;
-  right: 14%;
-  transform: rotate(3deg);
-}
-
-.wb-icon-card--work {
-  top: 96px;
-  right: 12%;
-  transform: rotate(-6deg);
-}
-
-.wb-hero__metrics {
-  position: absolute;
-  left: 38px;
-  bottom: 26px;
+.wb-hero__metrics-bar {
   display: flex;
-  gap: 12px;
+  gap: 28px;
+  justify-content: center;
+  padding: 22px 0 18px;
   color: #06283b;
   font-family: var(--wb-pixel);
   font-size: 13px;
+  letter-spacing: 0.08em;
+  border-top: 1px solid rgba(11, 33, 56, 0.12);
+  border-bottom: 1px solid rgba(11, 33, 56, 0.12);
 }
 
-.wb-hero__metrics span + span::before {
-  margin-right: 12px;
+.wb-hero__metrics-bar span + span::before {
+  margin-right: 28px;
   content: "/";
+  opacity: 0.5;
 }
 
-.wb-hero__metrics b {
+.wb-hero__metrics-bar b {
   font-weight: 400;
+  margin-right: 6px;
 }
 
 .wb-value-strip {
@@ -1282,16 +1233,13 @@ body.wb-lightbox-open {
   .wb-hero__copy {
     padding-left: 52px;
   }
-  .wb-icon-card {
-    width: 100px;
-    height: 100px;
-  }
-  .wb-icon-card .hn {
-    font-size: 62px;
-  }
   .wb-hero__logo-card {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
+  }
+  .wb-hero__metrics-bar {
+    gap: 22px;
+    font-size: 12px;
   }
   .wb-community {
     margin-inline: 30px;
@@ -1314,21 +1262,9 @@ body.wb-lightbox-open {
   .wb-hero__art {
     min-height: 430px;
   }
-  .wb-icon-card--buddy {
-    left: 12%;
-  }
-  .wb-icon-card--book {
-    left: 6%;
-  }
-  .wb-icon-card--flow {
-    right: 8%;
-  }
-  .wb-icon-card--work {
-    right: 10%;
-  }
   .wb-hero__logo-card {
-    top: 40px;
-    right: 36px;
+    width: 300px;
+    height: 300px;
   }
   .wb-value-strip {
     grid-template-columns: repeat(2, 1fr);
@@ -1385,50 +1321,17 @@ body.wb-lightbox-open {
     min-height: 360px;
   }
   .wb-hero__logo-card {
-    top: 28px;
-    right: 22px;
-    width: 150px;
-    height: 150px;
-    padding: 16px;
+    width: 220px;
+    height: 220px;
   }
-  .wb-hero__monogram {
-    top: 200px;
-    right: 26px;
-    font-size: 22px;
+  .wb-hero__metrics-bar {
+    flex-wrap: wrap;
+    gap: 12px 18px;
+    padding: 16px 16px 12px;
+    font-size: 11px;
   }
-  .wb-icon-card {
-    width: 82px;
-    height: 82px;
-  }
-  .wb-icon-card .hn {
-    font-size: 52px;
-  }
-  .wb-icon-card--buddy {
-    bottom: 56px;
-    left: 8%;
-  }
-  .wb-icon-card--book {
-    top: 86px;
-    left: 4%;
-  }
-  .wb-icon-card--flow {
-    bottom: 40px;
-    right: 6%;
-  }
-  .wb-icon-card--work {
-    top: 70px;
-    right: 6%;
-  }
-  .wb-hero__metrics {
-    left: 16px;
-    right: 16px;
-    bottom: 18px;
-    justify-content: center;
-    gap: 6px;
-    font-size: 9px;
-  }
-  .wb-hero__metrics span + span::before {
-    margin-right: 6px;
+  .wb-hero__metrics-bar span + span::before {
+    margin-right: 12px;
   }
   .wb-value-strip {
     grid-template-columns: 1fr;
