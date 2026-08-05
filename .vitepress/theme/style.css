@@ -16,10 +16,12 @@
   --hb-accent: #14B8A6;
   --hb-accent-2: #2DD4BF;
 
-  --vp-font-family-base: "PingFang SC", "Microsoft YaHei", "Helvetica Neue",
-    Helvetica, Arial, "Noto Sans SC", sans-serif;
-  --vp-font-family-mono: "JetBrains Mono", "Fira Code", "SFMono-Regular",
-    Consolas, "Liberation Mono", Menlo, monospace;
+  /* 字体：Sora 做英文/数字 display（Google Fonts 引入），中文用系统字体以控体积；
+     mono 用系统等宽栈，保留技术气质且不依赖网络字体 */
+  --vp-font-family-base: "Sora", "PingFang SC", "Microsoft YaHei", "Helvetica Neue",
+    "Noto Sans SC", sans-serif;
+  --vp-font-family-mono: "SFMono-Regular", Consolas, "Liberation Mono", Menlo,
+    "Courier New", monospace;
 }
 
 .dark {
@@ -69,8 +71,11 @@
   display: block;
   font-size: 30px;
   line-height: 1.1;
-  color: var(--vp-c-brand-1);
   font-weight: 800;
+  background: linear-gradient(135deg, var(--vp-c-brand-1), var(--hb-accent));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 .hb-stat span {
   font-size: 13px;
@@ -560,4 +565,48 @@
 @media (max-width: 768px) {
   .hb-community-cta { flex-direction: column; align-items: flex-start; }
   .hb-cta-btn { width: 100%; text-align: center; }
+}
+
+/* ===== 背景氛围：亮色航海网格 / 暗色星点（fixed，营造深度与航海气质）===== */
+body {
+  background-image:
+    linear-gradient(rgba(14, 165, 233, 0.035) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(14, 165, 233, 0.035) 1px, transparent 1px);
+  background-size: 46px 46px;
+  background-attachment: fixed;
+}
+.dark body {
+  background-image:
+    radial-gradient(1.5px 1.5px at 18% 26%, rgba(186, 230, 253, 0.30), transparent 60%),
+    radial-gradient(1.5px 1.5px at 72% 58%, rgba(125, 211, 252, 0.26), transparent 60%),
+    radial-gradient(1px 1px at 45% 82%, rgba(255, 255, 255, 0.22), transparent 60%),
+    radial-gradient(1px 1px at 88% 14%, rgba(45, 212, 191, 0.30), transparent 60%),
+    radial-gradient(1px 1px at 32% 68%, rgba(255, 255, 255, 0.18), transparent 60%);
+  background-size: 260px 260px;
+  background-attachment: fixed;
+}
+
+/* ===== 入场动效：scroll-reveal + 首屏 stagger =====
+   仅在 JS 就绪（.hb-reveal-ready 在 <html> 上）才隐藏初始状态，保证无 JS 时内容可见 */
+.hb-reveal-ready .hb-reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s cubic-bezier(0.22, 1, 0.36, 1),
+    transform 0.6s cubic-bezier(0.22, 1, 0.36, 1);
+  will-change: opacity, transform;
+}
+.hb-reveal-ready .hb-reveal.is-in {
+  opacity: 1;
+  transform: none;
+}
+
+/* 价值带 hover 微交互（空间/色彩小幅锐点） */
+.hb-value-item { transition: background 0.2s ease, filter 0.2s ease; }
+.hb-value-strip:hover .hb-value-item { opacity: 0.82; }
+.hb-value-strip .hb-value-item:hover { opacity: 1; filter: brightness(1.10); }
+
+/* 尊重「减少动效」偏好 */
+@media (prefers-reduced-motion: reduce) {
+  .hb-reveal-ready .hb-reveal { opacity: 1; transform: none; transition: none; }
+  body, .dark body { background-attachment: scroll; }
 }

@@ -6,7 +6,10 @@ export default defineConfig({
   description: 'WorkBuddy 从零到精通原创实战教程：安装上手、真实案例、进阶 Skill 与多 Agent、岗位与行业落地。',
   lang: 'zh-CN',
   head: [
-    ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }]
+    ['link', { rel: 'icon', href: '/logo.png', type: 'image/png' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+    ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' }],
+    ['link', { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700;800&display=swap' }]
   ],
   lastUpdated: true,
   cleanUrls: true,
